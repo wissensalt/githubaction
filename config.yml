@@ -12,39 +12,6 @@ boolean_false: false
 
 null_value: null
 
-students: >
-  [{"name":"Dupont","firstname":"Marie","age":19},
-  [{"name":"Smith","firstname":"John","age":18},
-  [{"name":"Doe","firstname":"Janne","age":19}]
-
-cakes: >
-  {
-  	"id": "0001",
-  	"type": "donut",
-  	"name": "Cake",
-  	"ppu": 0.55,
-  	"batters":
-  		{
-  			"batter":
-  				[
-  					{ "id": "1001", "type": "Regular" },
-  					{ "id": "1002", "type": "Chocolate" },
-  					{ "id": "1003", "type": "Blueberry" },
-  					{ "id": "1004", "type": "Devil's Food" }
-  				]
-  		},
-  	"topping":
-  		[
-  			{ "id": "5001", "type": "None" },
-  			{ "id": "5002", "type": "Glazed" },
-  			{ "id": "5005", "type": "Sugar" },
-  			{ "id": "5007", "type": "Powdered Sugar" },
-  			{ "id": "5006", "type": "Chocolate with Sprinkles" },
-  			{ "id": "5003", "type": "Chocolate" },
-  			{ "id": "5004", "type": "Maple" }
-  		]
-  }
-
 date: 2023-10-01
 
 time: 2023-10-01T12:00:00Z
@@ -89,3 +56,56 @@ mixed:
   dict:
     key1: value1
     key2: value2
+
+students: >
+  [{"name":"Dupont","firstname":"Marie","age":19},
+  [{"name":"Smith","firstname":"John","age":18},
+  [{"name":"Doe","firstname":"Janne","age":19}]
+
+cakes: >
+  {
+  	"id": "0001",
+  	"type": "donut",
+  	"name": "Cake",
+  	"ppu": 0.55,
+  	"batters":
+  		{
+  			"batter":
+  				[
+  					{ "id": "1001", "type": "Regular" },
+  					{ "id": "1002", "type": "Chocolate" },
+  					{ "id": "1003", "type": "Blueberry" },
+  					{ "id": "1004", "type": "Devil's Food" }
+  				]
+  		},
+  	"topping":
+  		[
+  			{ "id": "5001", "type": "None" },
+  			{ "id": "5002", "type": "Glazed" },
+  			{ "id": "5005", "type": "Sugar" },
+  			{ "id": "5007", "type": "Powdered Sugar" },
+  			{ "id": "5006", "type": "Chocolate with Sprinkles" },
+  			{ "id": "5003", "type": "Chocolate" },
+  			{ "id": "5004", "type": "Maple" }
+  		]
+  }
+
+my_web: >
+  <!DOCTYPE html>
+    <html lang="en">
+    <body>
+      <h1>Welcome to My Web Page</h1>
+      <p>This is a simple HTML document.</p>
+      <script>
+        console.log("Hello, World!");
+      </script>
+      <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        h1 {
+            color: #007BFF;
+        }
+    </html>
