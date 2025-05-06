@@ -1,0 +1,65 @@
+# Single-line string
+single_line_string: "This is a single-line string."
+
+# Multi-line string
+multi_line_string: |
+  This is a multi-line string.
+  It can span multiple lines.
+  Each line will be preserved.
+
+# Boolean values
+boolean_true: true
+boolean_false: false
+
+# Null value
+null_value: null
+
+# Date and time
+date: 2023-10-01
+time: 2023-10-01T12:00:00Z
+
+# Simple data structure
+config:
+  version: 1.0
+  name: Sample Configuration
+  description: This is a sample configuration file.
+
+# List of items
+fruits:
+  - name: apple
+    color: red
+    weight: 150
+  - name: banana
+    color: yellow
+    weight: 120
+  - name: cherry
+    color: red
+    weight: 10
+
+# Nested structure
+nested:
+  level1:
+    level2:
+      level3:
+        key: value
+        list:
+          - item1
+          - item2
+          - item3
+
+# Dictionary with mixed types
+mixed:
+  integer: 42
+  float: 3.14
+  string: Hello, World!
+  boolean: true
+  list:
+    - item1
+    - item2
+    - item3
+  dict:
+    key1: value1
+    key2: value2
+
+# Regular expression
+regex: "^[a-zA-Z0-9_]+$"
