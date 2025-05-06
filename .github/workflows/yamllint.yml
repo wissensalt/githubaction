@@ -16,7 +16,7 @@ jobs:
 
       - name: Run YAML Lint
         env:
-          INCLUDE_FILES: "config.yml"
+          INCLUDE_FILES: "config.yml, another-config.yml"
           EXCLUDE_FILES: "README.md"
           SHOW_ERRORS: "true"
         run: bash <(curl -s https://raw.githubusercontent.com/CICDToolbox/yaml-lint/master/pipeline.sh)
