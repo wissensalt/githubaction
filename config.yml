@@ -33,7 +33,7 @@ fruits:
   - name: cherry
     color: red
     weight: 10
-  
+
 nested:
   level1:
     level2:
@@ -43,7 +43,7 @@ nested:
           - item1
           - item2
           - item3
-        
+
 mixed:
   integer: 42
   float: 3.14
@@ -56,4 +56,4 @@ mixed:
   dict:
     key1: value1
     key2: value2
-    
+
