@@ -1,0 +1,18 @@
+xml-data:
+  - name: "example"
+    description: "This is an example XML data"
+    content: "<root><child>Example</child></root>"
+  - name: "another-example"
+    description: "This is another example XML data"
+    content: >
+      <root>
+        <child>Another Example</child>
+      </root>
+
+complex-xml-data: >
+  <note>
+    <to>Tove</to>
+    <from>Jani</from>
+    <heading>Reminder</heading>
+    <body>Don't forget me this weekend!</body>
+  </note>
