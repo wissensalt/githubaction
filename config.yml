@@ -57,4 +57,4 @@ mixed:
     key1: value1
     key2: value2
 
-# Add a blank line below this comment to resolve the error
+  # Add a blank line below this comment to resolve the error
